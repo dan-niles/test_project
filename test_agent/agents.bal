@@ -8,7 +8,7 @@ final ai:Agent weatherAgent = check new (
 Answer questions about current weather, forecasts, and general weather-related advice.
 If you do not have a tool to fetch live weather data, say so clearly instead of guessing.
 Be concise and friendly in your responses.`
-    }, model = anthropicModelprovider, tools = [pixelgustMcp]
+    }, model = openaiModelprovider, tools = [pixelgustMcp]
 );
 
 isolated class PixelgustMcpToolkit {
